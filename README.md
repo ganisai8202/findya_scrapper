@@ -23,3 +23,7 @@ Run the program
 scrapy crawl findya_scrapper -o <output_file_name>.csv
 scarpy crawl findya_scrapper -o <output_file_name.json>
 ```
+
+### Main program
+  The main program is in
+  `findya_spider/spiders/findya_scrapper.py`
