@@ -7,15 +7,19 @@ the files contain name,price,scription and image_urls of the sets.
 
 ## usage
 Downlaod the the github repository 
+
 `git clone https://github.com/ganisai8202/findya_scrapper.git`
 
 Navigate to the repository 
+
 `cd findya_scrapper`
 
 Install the required packages
+
 `pip install -r requirements.txt`
 
 Run the program
-
-`scrapy crawl findya_scrapper -o <output_file_name>.csv`
-`scarpy crawl findya_scrapper -o <output_file_name.json>`
+```
+scrapy crawl findya_scrapper -o <output_file_name>.csv
+scarpy crawl findya_scrapper -o <output_file_name.json>
+```
